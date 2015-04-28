@@ -873,7 +873,7 @@ footer a:hover {
   }
 }
 
-.button {
+.buttons {
   display: block;
   height: 100px;
   width: 300px;
@@ -882,7 +882,11 @@ footer a:hover {
 
   color: rgba(0, 0, 0, 0.55);
   text-align: center;
-  font: bold 3.2em/100px 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font: bold 3.2em/100px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+a.buttons {
+  text-decorations: none;
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
