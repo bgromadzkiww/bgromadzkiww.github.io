@@ -873,6 +873,18 @@ footer a:hover {
   }
 }
 
+.button {
+  display: block;
+  height: 100px;
+  width: 300px;
+  background: #34696f;
+  border: 2px solid rgba(33, 68, 72, 0.59);
+
+  color: rgba(0, 0, 0, 0.55);
+  text-align: center;
+  font: bold 3.2em/100px 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) { }
 
